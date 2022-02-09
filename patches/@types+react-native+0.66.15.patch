@@ -1,0 +1,13 @@
+diff --git a/node_modules/@types/react-native/index.d.ts b/node_modules/@types/react-native/index.d.ts
+index e8f8c2e..31da66f 100755
+--- a/node_modules/@types/react-native/index.d.ts
++++ b/node_modules/@types/react-native/index.d.ts
+@@ -731,7 +731,7 @@ export interface FlexStyle {
+     paddingStart?: number | string | undefined;
+     paddingTop?: number | string | undefined;
+     paddingVertical?: number | string | undefined;
+-    position?: 'absolute' | 'relative' | undefined;
++    position?: 'absolute' | 'relative' | 'fixed' | undefined ;
+     right?: number | string | undefined;
+     start?: number | string | undefined;
+     top?: number | string | undefined;
